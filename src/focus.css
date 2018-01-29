@@ -1,0 +1,11 @@
+.quill-focus .ql-editor {
+    color: rgba(200, 200, 200, 100);
+}
+
+.quill-focus .ql-editor>* {
+    transition: color 300ms;
+}
+
+.quill-focus .focused-blot {
+    color: rgba(45, 45, 45, 255)
+}
