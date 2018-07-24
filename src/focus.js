@@ -31,3 +31,5 @@ Focus.prototype.highlightBlot = function (range) {
         }
     }
 }
+
+module.exports = Focus
