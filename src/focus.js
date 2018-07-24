@@ -33,6 +33,6 @@ Focus.prototype.highlightBlot = function (range) {
 }
 
 
-if (module && module.exports) {
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = Focus
 }
