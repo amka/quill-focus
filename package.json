@@ -1,0 +1,28 @@
+{
+  "name": "quill-focus",
+  "version": "1.1.0",
+  "description": "Quill.js module that add focus mode.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amka/quill-focus.git"
+  },
+  "keywords": [
+    "quill",
+    "focus",
+    "distraction-free",
+    "editor"
+  ],
+  "author": "Andrey Maksimov <meamka@ya.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amka/quill-focus/issues"
+  },
+  "homepage": "https://github.com/amka/quill-focus#readme"
+}
