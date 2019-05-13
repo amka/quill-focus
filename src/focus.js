@@ -11,6 +11,11 @@ const Focus = function (quill, options) {
     quill.on('selection-change', function (range) {
         _this.highlightBlot(range)
     });
+
+    quill.on('text-change', (delta) = function() {
+        const selection = quill.getSelection()
+        _this.highlightBlot(selection)
+    })
 }
 
 Focus.prototype.removeHighlighting = function () {
